@@ -1,32 +1,32 @@
 export const portfolioData = {
   profile: {
-    name: "이수아",
+    name: "정선우",
     imageUrl: "/profile.png", // 없을 시 방패 아이콘 사용
-    tagline: "보안 전문가를 향한 여정",
-    subtitle: "실무 중심의 보안 역량과 문제 해결 능력을 갖춘 인재",
+    //tagline: "보안 전문가를 향한 여정",
+    //subtitle: "실무 중심의 보안 역량과 문제 해결 능력을 갖춘 인재",
     introduction: [
       "융합보안공학 동아리 활동을 통해 보안의 기초부터 최신 기술까지 배우며 성장하고 있습니다.",
-      "시스템 보안 분야에 큰 매력을 느꼈고, 배운 지식을 적용하여 CTF 문제를 출제하는 경험을 통해 이론을 실체화하는 즐거움을 알게 되었습니다."
+     // "시스템 보안 분야에 큰 매력을 느꼈고, 배운 지식을 적용하여 CTF 문제를 출제하는 경험을 통해 이론을 실체화하는 즐거움을 알게 되었습니다."
     ],
     education: {
       university: "성신여자대학교",
       major: "융합보안공학과",
       status: "재학 중", // 또는 졸업년도
-      gpa: "4.2/4.5" // 선택사항
+       // 선택사항
     },
     experience: [
       {
         title: "학부연구생",
-        organization: "성신여대 SSS 랩",
-        period: "2024.07 - 2025.02",
-        track: "AI 모델 기반 보안 취약점 탐지",
+        organization: "SSWU CSE Lab",
+        period: "2024.05 - ",
+        track: "focuses on the convergence engineering of security and information technologies",
       }
     ],
     contact: {
-      email: "sooa.lee@example.com",
-      github: "https://github.com/sooa-lee",
+      email: "erinsunw1@naver.com",
+      github: "https://github.com/sunwwwo",
       linkedin: "https://linkedin.com/in/sooa-lee",
-      blog: "https://sooa-sec.tistory.com"
+      blog: "https://wtdpp.tistory.com/"
     }
   },
 
@@ -36,7 +36,7 @@ export const portfolioData = {
       name: "융합보안공학과 학술동아리 융보공",
       university: "성신여자대학교",
       role: "8기 부원",
-      period: "2024.03 - 현재",
+      period: "2024.03 - ",
       description: "매주 보안 세미나를 통해 웹해킹, 시스템해킹, 암호학, 네트워크 등 다양한 보안 분야를 학습하고 있습니다.",
       activities: [
         "주간 보안 기술 세미나 참여",
@@ -45,8 +45,8 @@ export const portfolioData = {
         "동아리 내 지식 공유 및 토론"
       ],
       achievements: [
-        "2025 제 2회 융보공 MCP CTF 장려상 수상",
-        "시스템 해킹 분야 CTF 문제 출제"
+        //"2025 제 2회 융보공 MCP CTF 장려상 수상",
+        "웹 해킹 분야 CTF 문제 출제"
       ]
     }
   ],
@@ -68,15 +68,14 @@ export const portfolioData = {
         "'Integer Overflow' 취약점을 응용한 시스템 해킹 문제 출제",
         "다른 팀원이 출제한 웹, 암호학 분야 문제 해결 및 Write-up 작성"
       ],
-      techStack: ["C", "Python", "GDB", "CTFd"],
+      techStack: ["Python"],
       links: {
         github: [
           { name: "CTF 문제 소스코드", url: "https://github.com/YYJ-SH/ctfd_final" },
-          { name: "Write-up 모음", url: "https://just-switch-e27.notion.site/2025-CTF-MCP-225744acd59580a79903e5da1ff24793?source=copy_link" }
         ],
-        docs: [
-          { name: "문제 풀이 및 해설", url: "https://creamerburger.tistory.com/10" },
-          { name: "CTF 참가 후기", url: "https://creamerburger.tistory.com/11" }
+        pdf: [
+          { name: "출제 문제 Write-up 1", url: "/YBG_CTF1 writeup.pdf" },
+          { name: "출제 문제 Write-up 2", url: "/YBG_CTF2 writeup.pdf" },
         ]
       }
     },

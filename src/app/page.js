@@ -420,9 +420,10 @@ const SecurityPortfolio = () => {
                               <h5 className="font-semibold mb-4 capitalize text-lg flex items-center gap-2">
                                 {category === 'github' && <Code className="w-5 h-5 text-green-400" />}
                                 {category === 'docs' && <FileText className="w-5 h-5 text-blue-400" />}
+                                {category === 'pdf' && <FileText className="w-5 h-5 text-red-400" />}
                                 {category === 'demo' && <Globe className="w-5 h-5 text-purple-400" />}
-                                <span className={`${category === 'github' ? 'text-green-400' : category === 'docs' ? 'text-blue-400' : 'text-purple-400'}`}>
-                                  {category === 'github' ? 'GitHub' : category === 'docs' ? 'Documentation' : 'Demo'}
+                                <span className={`${category === 'github' ? 'text-green-400' : category === 'docs' ? 'text-blue-400' : category === 'pdf' ? 'text-red-400' : 'text-purple-400'}`}>
+                                  {category === 'github' ? 'GitHub' : category === 'docs' ? 'Documentation' : category === 'pdf' ? 'PDF' : 'Demo'}
                                 </span>
                               </h5>
                               <div className="space-y-3">
