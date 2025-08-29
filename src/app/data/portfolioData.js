@@ -18,7 +18,7 @@ export const portfolioData = {
       {
         title: "학부연구생",
         organization: "SSWU CSE Lab",
-        period: "2024.05 - ",
+        period: "2025.05 - ",
         track: "focuses on the convergence engineering of security and information technologies",
       }
     ],
@@ -36,7 +36,7 @@ export const portfolioData = {
       name: "융합보안공학과 학술동아리 융보공",
       university: "성신여자대학교",
       role: "8기 부원",
-      period: "2024.03 - ",
+      period: "2025.03 - ",
       description: "매주 보안 세미나를 통해 웹해킹, 시스템해킹, 암호학, 네트워크 등 다양한 보안 분야를 학습하고 있습니다.",
       activities: [
         "주간 보안 기술 세미나 참여",
