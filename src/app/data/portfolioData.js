@@ -206,7 +206,7 @@ certificates: [
   },
   
   blogPosts: [
- /*   {
+/*  {
       id: "post-1",
       title: "SQL Injection 취약점 심층 분석: Union-based 공격부터 Blind 기법까지",
       thumbnail: "/blogtestimage.png",
@@ -215,7 +215,8 @@ certificates: [
       date: "2025. 05. 28.",
       tags: ["Web Security", "SQL Injection", "OWASP"]
     }
+    */
   ]
-  */
+  
 };
 
