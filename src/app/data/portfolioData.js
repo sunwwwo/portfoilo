@@ -4,10 +4,6 @@ export const portfolioData = {
     imageUrl: "/profile.png", // 없을 시 방패 아이콘 사용
     //tagline: "보안 전문가를 향한 여정",
     //subtitle: "실무 중심의 보안 역량과 문제 해결 능력을 갖춘 인재",
-    introduction: [
-      "융합보안공학 동아리 활동을 통해 보안의 기초부터 최신 기술까지 배우며 성장하고 있습니다.",
-     // "시스템 보안 분야에 큰 매력을 느꼈고, 배운 지식을 적용하여 CTF 문제를 출제하는 경험을 통해 이론을 실체화하는 즐거움을 알게 되었습니다."
-    ],
     education: {
       university: "성신여자대학교",
       major: "융합보안공학과",
@@ -19,13 +15,13 @@ export const portfolioData = {
         title: "학부연구생",
         organization: "SSWU CSE Lab",
         period: "2025.05 - ",
-        track: "focuses on the convergence engineering of security and information technologies",
+        track: "AI security",
       }
     ],
     contact: {
       email: "erinsunw1@naver.com",
       github: "https://github.com/sunwwwo",
-      linkedin: "https://linkedin.com/in/sooa-lee",
+      linkedin: "https://linkedin.com",
       blog: "https://wtdpp.tistory.com/"
     }
   },
