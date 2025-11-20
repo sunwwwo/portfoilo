@@ -157,7 +157,7 @@ Business Logic Vulnerabilities」 ",
     },
     
         {
-      id: "award2-2025",
+      id: "award3-2025",
       title: "2025 ACK 학부생논문경진대회 동상, 「워터마크 기반 프롬프트 인젝션 위협 분석」",
       organizer: "정선우, 김남령, 조효빈, 육은서, 이일구",
       date: "2025. 11.",
