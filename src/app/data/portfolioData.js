@@ -5,7 +5,7 @@ export const portfolioData = {
     //tagline: "보안 전문가를 향한 여정",
     //subtitle: "실무 중심의 보안 역량과 문제 해결 능력을 갖춘 인재",
     introduction: [
-      "융합보안공학 동아리 활동을 통해 보안의 기초부터 최신 기술까지 배우며 성장하고 있습니다.",
+      "",
     ],
     education: {
       university: "성신여자대학교",
@@ -38,13 +38,11 @@ export const portfolioData = {
       period: "2025.03 - ",
       description: "매주 보안 세미나를 통해 웹해킹, 시스템해킹, 암호학, 네트워크 등 다양한 보안 분야를 학습하고 있습니다.",
       activities: [
-        "주간 보안 기술 세미나 참여",
-        "CTF 문제 출제 및 해결",
+        "CTF 문제 출제",
         "보안 취약점 분석 실습",
-        "동아리 내 지식 공유 및 토론"
+        "동아리 내 지식 공유"
       ],
       achievements: [
-        //"2025 제 2회 융보공 MCP CTF 장려상 수상",
         "웹 해킹 분야 CTF 문제 출제"
       ]
     }
@@ -85,31 +83,30 @@ export const portfolioData = {
       status: "완료",
       thumbnail: "/projecttestimage.png",
       images: [
-        "/gallerydefault.png",
-        "/gallerydefault.png",
-        "/gallerydefault.png",
-        "/gallerydefault.png"
+       // "/gallerydefault.png",
+      //  "/gallerydefault.png",
+       // "/gallerydefault.png",
+      //  "/gallerydefault.png"
       ],
-      overview: "융보공 동아리 내 웹 보안 팀으로 참여하여 OWASP Top 10 취약점을 체계적으로 학습하고, 실제 웹 애플리케이션에서 취약점을 발견하고 익스플로잇하는 실무 경험을 쌓았습니다.",
+      overview: "융보공 동아리 내 aws 스터디를 진행 중입니다.",
       contribution: [
-        "SQL Injection 취약점 분석 및 익스플로잇 실습 진행",
-        "XSS(Cross-Site Scripting) 공격 벡터 연구 및 방어 기법 학습",
-        "CSRF, IDOR 등 인증/인가 취약점 분석",
-        "팀원들과 함께 취약점 실습 랜드 및 보고서 작성"
+        //"SQL Injection 취약점 분석 및 익스플로잇 실습 진행",
       ],
-      techStack: ["Burp Suite", "Python", "PHP", "MySQL"],
+      techStack: ["AWS"],
       links: {
         github: [
-          { name: "웹 보안 스터디 자료", url: "" },
+          { name: "웹 보안 스터디 자료", //url: "" 
+           },
         ],
         docs: [
-          { name: "SQL Injection 분석 리포트", url: "https://creamerburger.tistory.com/72" },
+          { name: "SQL Injection 분석 리포트", //url: ""
+           },
         ]
       }
     }
   ],
   
-  learningActivities: [
+  /* learningActivities: [
     {
       id: "learn-fuzzing",
       title: "시스템 해킹 및 퍼징 (AFL)",
@@ -135,12 +132,33 @@ export const portfolioData = {
       ]
     }
   ],
+  */
   
   awards: [
-
+        {
+      id: "conference",
+      name: "한국정보기술학술단체총연합회장상, 「어텐션 패턴 분석 기반 프롬프트 인젝션 탐지 시스템」"
+      organizer: "정선우, 김남령, 이일구",
+      date: "2025. 11.",
+      certificateImage: "/defaultimage.png"
+    },
+   {
+      id: "conference2",
+      name: "국가보안기술연구소장상, 「스마트 컨트랙트 비즈니스 로직 취약점 탐지를 위한 정적 분석 프레임워크」"
+      organizer: "육은서, 김남령, 조효빈, 정선우, 이일구",
+      date: "2025. 11.",
+      certificateImage: "/defaultimage.png"
+    },
+        {
+      id: "conference3",
+      name: "2025 ACK 학부생논문경진대회 동상, 「워터마크 기반 프롬프트 인젝션 위협 분석」"
+      organizer: "정선우, 김남령, 조효빈, 육은서, 이일구",
+      date: "2025. 11.",
+      certificateImage: "/defaultimage.png"
+    }
   ],
 
-  certificates: [
+  /* certificates: [
     {
       id: "cert-ctf-pizza",
       name: "제 2회 융보공 CTF 수료증",
@@ -149,6 +167,9 @@ export const portfolioData = {
       certificateImage: "/defaultimage.png"
     }
   ],
+*/
+
+/*
 
   externalActivities: [
     {
@@ -160,6 +181,8 @@ export const portfolioData = {
       activityImage: "/defaultimage.png"
     },
   ],
+
+  */
   
   skills: {
     "언어": [
@@ -173,11 +196,11 @@ export const portfolioData = {
     ],
     "기타": [
       { name: "Git & GitHub", description: "버전 관리 및 협업" },
-      { name: "Linux", description: "CLI 환경 서버 관리" }
+      { name: "Linux", description: "" }
     ]
   },
   
-  blogPosts: [
+ /* blogPosts: [
     {
       id: "post-1",
       title: "SQL Injection 취약점 심층 분석: Union-based 공격부터 Blind 기법까지",
@@ -189,3 +212,4 @@ export const portfolioData = {
     }
   ]
 };
+*/
