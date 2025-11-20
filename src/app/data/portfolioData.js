@@ -138,26 +138,32 @@ export const portfolioData = {
   
   awards: [
         {
-      id: "conference",
-      name: "한국정보기술학술단체총연합회장상, 「어텐션 패턴 분석 기반 프롬프트 인젝션 탐지 시스템」",
+      id: "award-2025",
+      title: "한국정보기술학술단체총연합회장상, 「어텐션 패턴 분석 기반 프롬프트 인젝션 탐지 시스템」",
       organizer: "정선우, 김남령, 이일구",
       date: "2025. 11.",
-      certificateImage: "/defaultimage.png"
+      description: "President of the Federation of Korean Information Technology Research Organizations, 「Attention Pattern Analysis for Prompt Injection Detection」 ",
+      proofImage: "/defaultimage.png"
     },
-   {
-      id: "conference2",
-      name: "국가보안기술연구소장상, 「스마트 컨트랙트 비즈니스 로직 취약점 탐지를 위한 정적 분석 프레임워크」",
+
+       {
+      id: "award2-2025",
+      title: "국가보안기술연구소장상, 「스마트 컨트랙트 비즈니스 로직 취약점 탐지를 위한 정적 분석 프레임워크」",
       organizer: "육은서, 김남령, 조효빈, 정선우, 이일구",
       date: "2025. 11.",
-      certificateImage: "/defaultimage.png"
+      description: "National Security Technology Research Institute Award, 「A Static Analysis Framework for Detecting Smart Contract
+Business Logic Vulnerabilities」 ",
+      proofImage: "/defaultimage.png"
     },
+    
         {
-      id: "conference3",
-      name: "2025 ACK 학부생논문경진대회 동상, 「워터마크 기반 프롬프트 인젝션 위협 분석」",
+      id: "award2-2025",
+      title: "2025 ACK 학부생논문경진대회 동상, 「워터마크 기반 프롬프트 인젝션 위협 분석」",
       organizer: "정선우, 김남령, 조효빈, 육은서, 이일구",
       date: "2025. 11.",
-      certificateImage: "/defaultimage.png"
-    }
+      description: "2025 ACK Undergraduate Thesis Competition Bronze award, 「Watermark-based Prompt Injection Threat Analysis」",
+      proofImage: "/defaultimage.png"
+        }
   ],
 
 certificates: [
