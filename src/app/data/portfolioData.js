@@ -106,7 +106,8 @@ export const portfolioData = {
     }
   ],
   
-  /* learningActivities: [
+ learningActivities: [
+     /*
     {
       id: "learn-fuzzing",
       title: "시스템 해킹 및 퍼징 (AFL)",
@@ -131,8 +132,9 @@ export const portfolioData = {
         { name: "패킷 분석 리포트", url: "" }
       ]
     }
+      */
   ],
-  */
+
   
   awards: [
         {
@@ -158,21 +160,22 @@ export const portfolioData = {
     }
   ],
 
-  /* certificates: [
-    {
+certificates: [
+   /*    {
       id: "cert-ctf-pizza",
       name: "제 2회 융보공 CTF 수료증",
       organizer: "융합보안공학과 학술동아리 융보공",
       date: "2025. 06.",
       certificateImage: "/defaultimage.png"
     }
+    */
   ],
-*/
 
-/*
+
+
 
   externalActivities: [
-    {
+    /*{
       id: "activity-secon-2025",
       name: "제23회 세계보안엑스포 (SECON & eGISEC)",
       role: "참가자 (Attendee)",
@@ -180,9 +183,11 @@ export const portfolioData = {
       description: "국내외 주요 보안 기업들의 부스를 방문하여 최신 AI 보안, 클라우드 보안 기술 동향을 파악하고, 다양한 보안 솔루션의 동작 원리를 이해하는 기회를 가졌습니다.",
       activityImage: "/defaultimage.png"
     },
+
+      */
   ],
 
-  */
+
   
   skills: {
     "언어": [
@@ -200,8 +205,8 @@ export const portfolioData = {
     ]
   },
   
- /* blogPosts: [
-    {
+  blogPosts: [
+ /*   {
       id: "post-1",
       title: "SQL Injection 취약점 심층 분석: Union-based 공격부터 Blind 기법까지",
       thumbnail: "/blogtestimage.png",
@@ -211,5 +216,6 @@ export const portfolioData = {
       tags: ["Web Security", "SQL Injection", "OWASP"]
     }
   ]
+  */
 };
-*/
+
