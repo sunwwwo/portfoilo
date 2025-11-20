@@ -174,16 +174,16 @@ certificates: [
 
 
   externalActivities: [
-    /*{
+    {
       id: "activity-secon-2025",
-      name: "제23회 세계보안엑스포 (SECON & eGISEC)",
-      role: "참가자 (Attendee)",
-      date: "2025. 03. 21.",
-      description: "국내외 주요 보안 기업들의 부스를 방문하여 최신 AI 보안, 클라우드 보안 기술 동향을 파악하고, 다양한 보안 솔루션의 동작 원리를 이해하는 기회를 가졌습니다.",
+      name: "Enhancing DeFi Smart Contract Security via LangChain and Retrieval-Augmented Generation",
+      role: "조효빈, 김남령, 정선우, 이일구",
+      date: "2025 WISA",
+      description: "",
       activityImage: "/defaultimage.png"
     },
 
-      */
+  
   ],
 
 
