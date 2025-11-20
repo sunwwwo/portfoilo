@@ -578,7 +578,7 @@ const SecurityPortfolio = () => {
 
           {/* External Activities */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-purple-400">외부 활동</h3>
+            <h3 className="text-2xl font-bold mb-6 text-purple-400">활동</h3>
             <div className="grid gap-6">
               {externalActivities.map((activity, index) => (
                 <div 
