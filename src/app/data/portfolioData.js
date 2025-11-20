@@ -21,7 +21,7 @@ export const portfolioData = {
     contact: {
       email: "erinsunw1@naver.com",
       github: "https://github.com/sunwwwo",
-      linkedin: "https://linkedin.com",
+      //linkedin: "https://linkedin.com",
       blog: "https://wtdpp.tistory.com/"
     }
   },
