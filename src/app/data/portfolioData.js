@@ -78,15 +78,11 @@ export const portfolioData = {
     },
     {
       id: "project-web-security-study",
-      title: "웹 보안 팀 스터디 프로젝트",
+      title: "aws 팀 스터디 프로젝트",
       period: "2025.03 - 2025.07",
       status: "완료",
       thumbnail: "/projecttestimage.png",
       images: [
-        "/gallerydefault.png",
-      "/gallerydefault.png",
-      "/gallerydefault.png",
-     "/gallerydefault.png"
       ],
       overview: "융보공 동아리 내 aws 스터디를 진행 중입니다.",
       contribution: [
@@ -95,7 +91,7 @@ export const portfolioData = {
       techStack: ["AWS"],
       links: {
         github: [
-          { name: "웹 보안 스터디 자료", url: "" 
+          { name: "스터디 자료", url: "" 
            },
         ],
         docs: [
