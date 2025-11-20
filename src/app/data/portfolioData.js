@@ -63,7 +63,7 @@ export const portfolioData = {
       overview: "동아리 기술 세미나에서 학습한 지식을 바탕으로 직접 취약점을 설계하고, 다른 부원들이 출제한 다양한 분야의 문제를 해결하며 공격과 방어의 원리를 종합적으로 학습했습니다.",
       contribution: [
         "'Integer Overflow' 취약점을 응용한 시스템 해킹 문제 출제",
-        "다른 팀원이 출제한 웹, 암호학 분야 문제 해결 및 Write-up 작성"
+        "다른 팀원이 출제한 웹 분야 문제 해결 및 Write-up 작성"
       ],
       techStack: ["Python"],
       links: {
@@ -79,7 +79,7 @@ export const portfolioData = {
     {
       id: "project-web-security-study",
       title: "aws 팀 스터디 프로젝트",
-      period: "2025.03 - 2025.07",
+      period: "2025.10 - 2025.12",
       status: "완료",
       thumbnail: "/projecttestimage.png",
       images: [
